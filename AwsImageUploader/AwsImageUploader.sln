@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsImageUploader.Core", "Aw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsImageUploader.Tests", "AwsImageUploader.Tests\AwsImageUploader.Tests.csproj", "{AC76D640-176D-4CF4-94A8-F02023128803}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwsImageUploader.Lambda", "AwsImageUploader.Lambda\AwsImageUploader.Lambda.csproj", "{C0C662AC-E444-4B15-A1D0-98695CED0257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AC76D640-176D-4CF4-94A8-F02023128803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC76D640-176D-4CF4-94A8-F02023128803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC76D640-176D-4CF4-94A8-F02023128803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C662AC-E444-4B15-A1D0-98695CED0257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C662AC-E444-4B15-A1D0-98695CED0257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C662AC-E444-4B15-A1D0-98695CED0257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C662AC-E444-4B15-A1D0-98695CED0257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
