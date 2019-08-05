@@ -1,4 +1,4 @@
-# AWS Image Uploader
+# AWS Image Resizer
 
 This repository has two applications:
 
