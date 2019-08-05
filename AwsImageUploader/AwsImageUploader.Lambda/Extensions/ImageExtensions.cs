@@ -1,12 +1,11 @@
-﻿using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Formats;
-using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Processing;
-using System.Drawing;
-using System.IO;
-
-namespace AwsImageUploader.Lambda.Extensions
+﻿namespace AwsImageUploader.Lambda.Extensions
 {
+    using SixLabors.ImageSharp;
+    using SixLabors.ImageSharp.Formats;
+    using SixLabors.ImageSharp.PixelFormats;
+    using SixLabors.ImageSharp.Processing;
+    using System.IO;
+
     public static class ImageExtensions
     {
         public static byte[] ToByteArray(this Image<Rgba32> imageIn, IImageEncoder encoder)

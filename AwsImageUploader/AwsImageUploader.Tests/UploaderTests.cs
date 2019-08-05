@@ -1,19 +1,19 @@
-﻿using System;
-using System.IO;
-using System.Threading.Tasks;
-using Amazon;
-using AwsImageUploader.Core;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace AwsImageUploader.Tests
+﻿namespace AwsImageUploader.Tests
 {
+    using System;
+    using System.IO;
+    using System.Threading.Tasks;
+    using Amazon;
+    using AwsImageUploader.Core;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class UploaderTests
     {
-        private const string BucketName = "test-bucket-henry-upwork";
+        private const string BucketName = "test-bucket";
         private const string ImagePath = @"App_Data\tokyo.jpg";
-        private const string AccessKey = "AKIAWYNCPQCLCUVFXQ5X";
-        private const string AccessSecret = "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";
+        private const string AccessKey = "<ACCESS KEY>";
+        private const string AccessSecret = "<ACCESS SECRET>";
         private readonly RegionEndpoint Region = RegionEndpoint.SAEast1;
 
         [TestMethod]

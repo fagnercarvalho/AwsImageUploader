@@ -1,17 +1,17 @@
-﻿using Amazon;
-using AwsImageUploader.Core;
-using System.IO;
-using System.Threading.Tasks;
-using static System.Console;
-
-namespace AwsImageUploader.Console
+﻿namespace AwsImageUploader.Console
 {
+    using Amazon;
+    using AwsImageUploader.Core;
+    using System.IO;
+    using System.Threading.Tasks;
+    using static System.Console;
+
     public class Program
     {
-        private const string BucketName = "test-bucket-henry-upwork";
+        private const string BucketName = "test-bucket";
         private const string ImagePath = @"App_Data\tokyo.jpg";
-        private const string AccessKey = "AKIAWYNCPQCLCUVFXQ5X";
-        private const string AccessSecret = "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";
+        private const string AccessKey = "<ACCESS KEY>";
+        private const string AccessSecret = "<ACCESS SECRET>";
         private static readonly RegionEndpoint Region = RegionEndpoint.SAEast1;
 
         public static async Task Main(string[] args)

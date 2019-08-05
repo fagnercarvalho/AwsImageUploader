@@ -1,12 +1,11 @@
-﻿using Amazon;
-using Amazon.Runtime;
-using Amazon.S3;
-using Amazon.S3.Transfer;
-using System.IO;
-using System.Threading.Tasks;
-
-namespace AwsImageUploader.Core
+﻿namespace AwsImageUploader.Core
 {
+    using Amazon;
+    using Amazon.S3;
+    using Amazon.S3.Transfer;
+    using System.IO;
+    using System.Threading.Tasks;
+
     public class Uploader : IUploader
     {
         private readonly IAmazonS3 s3Client;
